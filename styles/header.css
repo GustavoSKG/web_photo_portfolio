@@ -1,0 +1,85 @@
+
+.header{
+    padding: 30px 120px 0px;
+    max-width: 1200px;
+    max-height: 500px;
+}
+.header__container{
+    display: flex;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+    column-gap: 20px;
+}
+
+.right-column{
+    z-index: 1;
+}
+.header-title{
+    font-family: 'ArchivoBlack';
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 78px;
+    padding-top: 49px;
+    padding-bottom: 15px;
+}
+
+span {
+    display: block;
+}
+
+.header-description{
+    color: #ffffff;
+    opacity: 0.5;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.header-resume{
+    color: #ffffff;
+    font-size: 18px;
+    max-width: 793px;
+}
+
+.page-links{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+    padding: 0;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 5px solid transparent;
+    border-image: linear-gradient(90deg, #4C1A97, #6D6DFF);
+    border-image-slice: 1;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover{
+    color: rgba(255, 255, 255, 0.5); 
+}
+
+.profile_pic{
+    width: 387px;
+    height: 500px;
+    z-index: 1;
+}
+
+.circle{
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(circle, rgba(109, 109, 255, 1) 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(1.5rem);
+  opacity: 0.38;
+  position: absolute;
+  z-index: 0;
+  top: -100px;
+  left: 400px;
+}
+
+

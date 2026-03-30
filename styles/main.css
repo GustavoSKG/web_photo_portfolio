@@ -1,0 +1,11 @@
+.content{
+    display: flex;
+    padding-left: 120px;
+
+}
+
+.habilidades_title {
+    font-family: 'ArchivoBlack';
+    color: #ffffff;
+    font-size: 40px;
+}
