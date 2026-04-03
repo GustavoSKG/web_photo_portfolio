@@ -1,0 +1,31 @@
+.habilidades{
+    padding-left: 120px;
+    padding-right: 120px;
+    min-height: 151px;
+    box-sizing: border-box;
+}
+
+.habilidades_title{
+    font-family: 'ArchivoBlack';
+    color: #ffffff;
+    font-size: 2.5rem;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.logo_container{
+    display: flex;        
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.icon_java, .icon_node, .icon_github, .icon_chatgpt {
+    width: 50px;
+    height: 50px;
+}
+
+.icon_html, .icon_css{
+    width: 50px;
+    height: 57px;
+
+}

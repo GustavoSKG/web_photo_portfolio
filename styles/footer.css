@@ -1,0 +1,23 @@
+.footer{
+    padding: 100px 0px;
+}
+
+.footer-title{
+    font-family: 'ArchivoBlack';
+    color: #ffffff;
+    font-size: 2.5rem;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.circle2{
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(circle, rgba(109, 109, 255, 1) 0%, transparent 70%);
+  border-radius: 50%;
+  filter: blur(1.5rem);
+  opacity: 0.38;
+  z-index: 0;
+
+}

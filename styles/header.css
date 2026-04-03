@@ -2,12 +2,11 @@
 .header{
     padding: 30px 120px 0px;
     max-width: 1200px;
-    max-height: 500px;
+    min-height: 500px;
 }
 .header__container{
     display: flex;
     position: relative;
-    margin: auto;
     box-sizing: border-box;
     column-gap: 20px;
 }
@@ -18,7 +17,7 @@
 .header-title{
     font-family: 'ArchivoBlack';
     color: #ffffff;
-    font-size: 72px;
+    font-size: 4.5rem;
     line-height: 78px;
     padding-top: 49px;
     padding-bottom: 15px;
@@ -31,14 +30,16 @@ span {
 .header-description{
     color: #ffffff;
     opacity: 0.5;
-    font-size: 18px;
+    font-size: 1.125rem;
     padding-bottom: 30px;
+    max-width: 793px;
 }
 
 .header-resume{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.125rem;
     max-width: 793px;
+    padding-bottom: 30px;
 }
 
 .page-links{
@@ -50,7 +51,8 @@ span {
 
 .nav-link{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 25px;
     font-weight: 600;
     text-decoration: none;
     border-bottom: 5px solid transparent;
@@ -64,9 +66,10 @@ span {
 }
 
 .profile_pic{
-    width: 387px;
-    height: 500px;
+    width: 50%;
+    aspect-ratio: 1 / 1;
     z-index: 1;
+    object-fit: cover
 }
 
 .circle{
