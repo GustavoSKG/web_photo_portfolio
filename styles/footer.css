@@ -1,14 +1,40 @@
 .footer{
+    min-height: 300px;
     padding: 100px 0px;
+    position: relative;
 }
 
 .footer-title{
     font-family: 'ArchivoBlack';
     color: #ffffff;
     font-size: 2.5rem;
-    z-index: 1;
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.mail-url{
+    font-family: 'OpenSans';
+    font-size: 1.125rem;
+    color: #6D6DFF;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.mail-url:hover{
+    opacity: 50%;
+}
+
+.social__media{
     display: flex;
     justify-content: center;
+    gap: 80px;
+}
+
+.logo__icon:hover{
+    opacity: 50%;
 }
 
 .circle2{
@@ -18,6 +44,9 @@
   border-radius: 50%;
   filter: blur(1.5rem);
   opacity: 0.38;
-  z-index: 0;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
 }

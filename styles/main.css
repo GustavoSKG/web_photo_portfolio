@@ -3,7 +3,6 @@
     padding-top: 100px;
     padding-left: 120px;
     max-width: 1200px;
-
 }
 
 
@@ -11,6 +10,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    grid-auto-columns: min-content;
+    z-index: 1;
+    
 }
 
 .media-card{

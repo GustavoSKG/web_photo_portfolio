@@ -42,7 +42,7 @@ span {
     padding-bottom: 30px;
 }
 
-.page-links{
+.nav__list{
     display: flex;
     list-style: none;
     column-gap: 30px;
