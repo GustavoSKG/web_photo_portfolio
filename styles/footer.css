@@ -2,6 +2,7 @@
     min-height: 300px;
     padding: 100px 0px;
     position: relative;
+    box-sizing: border-box;
 }
 
 .footer-title{
@@ -38,8 +39,8 @@
 }
 
 .circle2{
-  width: 900px;
-  height: 900px;
+  width: 700px;
+  height: 700px;
   background: radial-gradient(circle, rgba(109, 109, 255, 1) 0%, transparent 70%);
   border-radius: 50%;
   filter: blur(1.5rem);
@@ -49,4 +50,27 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
+}
+
+@media screen and (max-width: 1104px) {
+    .footer{
+    min-height: 300px;
+    padding-top: 80px;
+    position: relative;
+    box-sizing: border-box;
+    }
+
+}
+
+
+@media screen and (max-width : 544px) {
+    .footer{
+        padding-top: 60px;
+    }
+     .footer-title{
+        font-size: 1.75rem;
+    }
+    .social__media{
+        gap: 40px;
+    }
 }

@@ -16,6 +16,7 @@ h1, h2, h3, p, li {
 }
 body{
     background-color: rgba(17, 17, 17, 1);
+    margin: 0;
 }
 
 .page{
@@ -32,13 +33,4 @@ body{
     margin: auto;
     font-family: 'OpenSans';
     overflow: hidden;
-}
-
-
-@media screen and (max-width: 1104px) {
-
-}
-
-@media screen and (max-width: 544px) {
-
 }

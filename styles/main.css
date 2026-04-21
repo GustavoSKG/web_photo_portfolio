@@ -1,25 +1,83 @@
 
 .content{
-    padding-top: 100px;
-    padding-left: 120px;
-    max-width: 1200px;
+    padding: 100px 120px 0;
+    width: 83.33%;
+    min-height: 33.53%;
 }
 
-
 .two-columns{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    grid-auto-columns: min-content;
-    z-index: 1;
-    
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+ 
 }
 
 .media-card{
+    width: calc((100% - 20px)/2);
+}
+.content__column-image{
+    width: 100%;
+    padding-bottom: 55%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.content__column-image_cafe{
+    background-image: url(../images/Rectangle\ 3.png);
+}
+
+.content__column-image_java{
+    background-image: url(../images/Rectangle\ 5.png);
+}
+.content__column-image_html{
+    background-image: url(../images/icon_html.svg);
+    background-size: cover;
+    width: 41px;
+    height: 47px;
+    object-fit: contain;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+
+}
+.content__column-image_css{
+    background-image: url(../images/css.svg);
+    background-size: cover;
+    width: 41px;
+    height:47px;
+    object-fit: contain;
+    position: absolute;
+    left: 62px;
+    bottom: 10px;
+
+}
+.content__column-image_java_logo{
+    background-image: url(../images/java.svg);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    position: absolute;
+    left: 12px;
+    bottom: 10px;
+}
+.content__column-image_smth{
+    background-image: url(../images/smthn.svg);
+    background-size: cover;
+    width: 40px;
+    height:40px;
+    object-fit: contain;
+    position: absolute;
+    left: 62px;
+    bottom: 10px;
+}
+
+.info-content{
+    padding: 30px;
     background-color: #1C1C1C;
-    display: flex;
-    flex-direction: column;
-    max-height: 670px;
 }
 
 .proyectos_title{
@@ -27,12 +85,6 @@
     color: #ffffff;
     font-size: 2.5rem;
     padding-bottom: 50px;
-}
-
-
-.info-content{
-    margin: 0;
-    padding: 30px;
 }
 
 .box-title{
@@ -77,4 +129,68 @@
 
 .demo-vivo:hover{
     opacity: 50%;
+}
+
+@media screen and (max-width: 1104px) {
+    .content{
+        padding: 83px 40px 0;    
+        width: 100%;
+        box-sizing: border-box;
+    }
+  
+    .two-columns{
+        flex-direction: column;
+    }
+    .media-card{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+}
+@media screen and (max-width : 544px) {
+    .content{
+        padding: 60px 20px 0;
+        width: 100%;
+    }
+    .media-card{
+        width: 100%;
+    }
+    .proyectos_title{
+        font-size: 1.75rem;
+        padding-bottom: 30px;
+    }
+    .box-title{
+        font-size: 1.25rem;
+    }
+    .box-text{
+        font-size: 1rem;
+    }
+    .content__column-image_html{
+    width: 22px;
+    height: 25px;
+    left: 12px;
+    bottom: 10px;
+
+}
+.content__column-image_css{
+    width: 22px;
+    height:25px;
+    left: 35px;
+    bottom: 10px;
+
+}
+.content__column-image_java_logo{
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    bottom: 10px;
+}
+.content__column-image_smth{
+    width: 20px;
+    height:20px;
+    left: 35px;
+    bottom: 10px;
+}
+
+
 }
