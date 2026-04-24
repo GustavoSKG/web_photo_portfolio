@@ -24,7 +24,7 @@
     max-width: 793px;
 }
 
-span {
+.line_breaker {
     display: block;
 }
 
@@ -78,6 +78,7 @@ span {
     padding-bottom: 500px;
     background-size: cover;
     background-position: center;
+    object-fit: contain;
 }
 
 
@@ -111,6 +112,9 @@ span {
     font-size: 3.625rem;
     padding-top: 0;
   }
+    .separator{
+         display: none;
+    }
 
   .header-resume, .header-description{
     max-width: 452px;
@@ -146,7 +150,6 @@ span {
     .profile_pic{
         min-width: 280px;
         padding-bottom: 280px;
-
     }
 
     .header-title{
