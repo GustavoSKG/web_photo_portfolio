@@ -1,12 +1,12 @@
 
 @font-face {
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
     url("/fonts/OpenSans-Regular.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'ArchivoBlack';
+    font-family: 'Archivo Black';
     src: url("/fonts/ArchivoBlack-Regular.woff2") format("woff2"),
     url("/fonts/ArchivoBlack-Regular.woff") format("woff");
 }
@@ -31,7 +31,7 @@ body{
 .page{
     max-width: 1440px;
     margin: auto;
-    font-family: 'OpenSans';
+    font-family: 'Open Sans';
     overflow: hidden;
 }
 
