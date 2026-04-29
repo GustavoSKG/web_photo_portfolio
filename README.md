@@ -10,5 +10,3 @@ https://gustavoskg.github.io/web_photo_portfolio/
 - HTML5
 - CSS3
 
-## Uso
-Abrir index.html en el navegador.
