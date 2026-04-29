@@ -17,7 +17,7 @@
     width: calc((100% - 20px)/2);
 }
 .content__column-image{
-    wwidth: 100%;
+    width: 100%;
     aspect-ratio: 16 / 9;
     background-size: cover;
     background-position: center;
@@ -150,7 +150,7 @@
     opacity: 50%;
 }
 
-@media screen and (max-width: 1104px) {
+@media screen and (max-width:  1023px) {
     .content{
         padding: 83px 40px 0;
         width: 100%;
@@ -174,7 +174,7 @@
     }
 
 }
-@media screen and (max-width : 544px) {
+@media screen and (max-width : 767px) {
     .content{
         padding: 60px 20px 0;
         width: 100%;

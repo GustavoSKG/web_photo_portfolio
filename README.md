@@ -4,7 +4,7 @@ RESTLESS UNDERGROUND
 
 Aplicación web que muestra un portafolio de habilidades con HTML y CSS
  
-http://127.0.0.1:5500/index.html
+https://gustavoskg.github.io/web_photo_portfolio/
 
 ## Tecnologías
 - HTML5

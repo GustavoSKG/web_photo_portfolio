@@ -52,7 +52,7 @@
   z-index: -1;
 }
 
-@media screen and (max-width: 1104px) {
+@media screen and (max-width: 1023px) {
     .footer{
     min-height: 300px;
     padding-top: 80px;
@@ -63,7 +63,7 @@
 }
 
 
-@media screen and (max-width : 544px) {
+@media screen and (max-width : 767px) {
     .footer{
         padding-top: 60px;
     }

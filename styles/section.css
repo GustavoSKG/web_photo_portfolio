@@ -13,7 +13,7 @@
 }
 
 .logo_container{
-    display: flex;        
+    display: flex;
     justify-content: space-between;
 }
 
@@ -24,7 +24,7 @@
     object-fit: contain;
 }
 
-@media screen and (max-width: 1104px) {
+@media screen and (max-width: 1023px) {
   .habilidades{
     padding-left: 40px;
     padding-right: 40px;
@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 544px) {
+@media screen and (max-width: 767px) {
     .habilidades{
         padding-left: 20px;
         padding-right: 20px;
@@ -58,7 +58,7 @@
         width: 30px;
         height: 30px
     }
-    
 
-    
+
+
 }
